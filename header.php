@@ -32,7 +32,7 @@
 			
 			<div class="container clearfix">
 				
-				<h1><a href="" class="logo">Vodovod Omiš</a></h1>
+				<h1><a href="<?php echo home_url( $path = '', $scheme = null )?>" class="logo">Vodovod Omiš</a></h1>
 					<?php
 					$vodovodTopMenuArguments = array(
 						'theme_location'  => 'top_right_menu',
