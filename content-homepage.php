@@ -10,16 +10,14 @@
 				while($queryHomePage->have_posts()){
 					$queryHomePage->the_post();?>
 					<li>
-						<h2><a href="">Dan vode 22. ožujka</a></h2>
+						<h2><a href="<?php the_permalink();?>"><?php the_title( $before = '', $after = '', $echo = true )?></a></h2>
 						<div class="info clearfix">
-							<div><span>Author:</span> Admin</div>
-							<div><span>Objavljeno:</span> 16.10.2011.</div>
-							<div><span>Kategorija:</span> <a href="">Obavijesti</a></div>
+							<div><span>Author:</span><?php the_author( $deprecated = '', $deprecated_echo = true )?></div>
+							<div><span>Objavljeno:</span><?php the_date( $d = '', $before = '', $after = '', $echo = true )?></div>
+							<div><span>Kategorija:</span> <a href=""><?php the_category( $separator = '', $parents='', $post_id = false )?></a></div>
 						</div>
 						<div class="info-text">
-							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-							</p>
+							<?php the_content( $more_link_text = null, $stripteaser = false );?>
 						</div>
 					</li>
 
