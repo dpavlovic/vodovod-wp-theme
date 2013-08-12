@@ -30,8 +30,8 @@
 
 	<div class="navigation">
 		<p>
-			<a href="http://www.designtheplanet.com/news/">« Stariji textovi</a> — 
-			<a href="http://www.designtheplanet.com/news/page/3/">Noviji tekstovi »</a>
+			<a href="#">« Stariji textovi</a> — 
+			<a href="#">Noviji tekstovi »</a>
 		</p>
 	</div>
 
