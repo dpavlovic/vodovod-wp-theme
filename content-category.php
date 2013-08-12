@@ -1,6 +1,6 @@
 <div class="content">
 	<div class="info-text">
-		<?php //echo category_description()?>
+		<?php echo category_description()?>
 	</div>
 	<ul>
 		<?php 
@@ -24,7 +24,6 @@
 			} else {
 				echo "Nema unosa koji zadvoljava uvjet!";
 			}
-			wp_reset_postdata();
 		?>
 		</ul>
 
