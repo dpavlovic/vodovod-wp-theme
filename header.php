@@ -55,13 +55,6 @@
 
 						wp_nav_menu( $vodovodTopMenuArguments );?>
 				
-				<!--<ul class="clearfix top-menu">
-					<li><a href="">Vodovod d.o.o.</a></li>
-					<li><a href="">Online pritužbe</a></li>
-					<li><a href="">Najčešća pitanja</a></li>
-					<li><a href="">Kontakt</a></li>
-				</ul>-->
-				
 			</div>
 			
 			
@@ -93,25 +86,6 @@
 					);
 
 					wp_nav_menu( $vodovodMainMenuArguments );?>
-				<!--<nav>
-					<ul class="clearfix">
-						<li><a href="">Početna</a></li>
-						<li><a href="">Javna nabava</a></li>
-						<li><a href="">Obavijesti</a></li>
-						<li><a href="">Servisne informacije</a></li>
-						<li><a href="">Zakoni, pravilnici, odluke</a></li>
-					</ul>
-				</nav>-->
-
-				<!--<div class="search">
-					<form action="#">
-						<p class="clearfix">
-							<input type="text" class="text" palcehodler="pretraga...">
-							<input type="submit" class="submit" value="Traži">
-						</p>
-					</form>
-				</div>-->
-
 			</div>
 
 		</section>
