@@ -1,6 +1,6 @@
 <div class="content">
 	<div class="info-text">
-		<?php echo category_description()?>
+		<?php //echo category_description()?>
 	</div>
 	<ul>
 		<?php 
