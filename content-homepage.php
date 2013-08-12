@@ -14,7 +14,7 @@
 						<div class="info clearfix">
 							<div><span>Author:</span><?php the_author( $deprecated = '', $deprecated_echo = true )?></div>
 							<div><span>Objavljeno:</span><?php the_date( $d = '', $before = '', $after = '', $echo = true )?></div>
-							<div><span>Kategorija:</span> <a href=""><?php the_category( $separator = ',', $parents='', $post_id = false )?></a></div>
+							<div><span>Kategorija:</span> <?php the_category( $separator = ',', $parents='', $post_id = false )?></div>
 						</div>
 						<div class="info-text">
 							<?php the_content( $more_link_text = null, $stripteaser = false );?>
