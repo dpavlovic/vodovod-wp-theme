@@ -15,7 +15,7 @@
 							<div><span>Kategorija:</span> <?php the_category( $separator = ',', $parents='', $post_id = false )?></div>
 						</div>
 						<div class="info-text">
-							<?php the_content( $more_link_text = null, $stripteaser = false );?>
+							<?php the_content( $more_link_text = "Pročitaj više ...", $stripteaser = false );?>
 						</div>
 					</li>
 
