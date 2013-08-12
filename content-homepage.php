@@ -4,7 +4,7 @@
 		<?php 
 			$queryHomePageArgs = array (
 					'category_name' => 'obavijesti-i-novosti',
-				)
+				);
 			$queryHomePage = new WP_Query($queryHomePageArgs);
 			if($queryHomePage->have_posts()){
 				while($queryHomePage->have_posts()){
