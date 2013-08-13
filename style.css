@@ -165,26 +165,29 @@ nav{
 
 nav ul li{
 	float: left;
-	margin: 0 20px 0 0;
-	padding: 0 5px 0 5px;
+	margin: 0 13px 0 0;
+	padding: 0;
 	position: relative;
 }
-nav ul li:hover{
-	background-color: white;
-}
+
 nav ul li:last-child{
 	margin: 0;
 }
 
 nav ul li a{
 	display: block;
-	width: 100%;
-	height:100%;
+	padding: 0 7px;
 	font: 14px/39px "trebuchet_bold";
 	color: #fff;
 }
 
 nav ul li a:hover{
+	background: #fff;
+	color: #6288AB;
+}
+
+nav ul li:hover a{
+	background: #fff;
 	color: #6288AB;
 }
 
@@ -217,6 +220,10 @@ nav ul li ul li ul{
 	top: 0px;
 	z-index: 12;
 }
+
+/* ==========================================================================
+   Search box
+   ========================================================================== */
 
 .search{
 	float: right;
