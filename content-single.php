@@ -28,8 +28,10 @@
 
 	<div class="navigation">
 		<p>
-			<a href="#">« Stariji textovi</a> — 
-			<a href="#">Noviji tekstovi »</a>
+			<?php previous_post_link('%link', 'Stariji text', TRUE); ?> 
+			<!--<a href="#">« Stariji textovi</a>--> — 
+			<?php next_post_link('%link', 'Noviji text', TRUE); ?> 
+			<!--<a href="#">Noviji tekstovi »</a>-->
 		</p>
 	</div>
 
