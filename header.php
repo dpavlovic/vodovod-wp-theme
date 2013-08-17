@@ -17,6 +17,7 @@
 
 		<!-- start:scripts -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.iosslider.min.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/required.js"></script>
 		<!-- end:scripts -->
 
@@ -60,6 +61,40 @@
 			
 		</header>
 		<!-- end:header -->
+		
+		<!-- start:fluid_height -->
+		<div class="fluid_height">
+
+			<!-- start:slider_container -->
+			<div class="slider_container">
+
+				<!-- start:ios_slider -->
+				<div class="ios_slider">
+					<!-- start:slider -->
+					<div class="slider">
+						
+						<article>
+							<img src="<?php echo get_template_directory_uri()?>/images/header_bg.jpg" alt="" />
+						</article>
+						<article>
+							<img src="<?php echo get_template_directory_uri()?>/images/header_bg2.jpg" alt="" />
+						</article>
+						<article>
+							<img src="<?php echo get_template_directory_uri()?>/images/header_bg3.jpg" alt="" />
+						</article>
+
+					</div>
+					<!-- end:slider -->
+				</div>
+				<!-- end:ios_slider -->
+
+			</div>
+			<!-- end:slider_container -->
+
+		</div>
+		<!-- end:fluid_height -->
+
+
 		  
 		<!-- start:main-navigation-over -->
 		<section class="main-navigation-over">
