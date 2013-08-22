@@ -398,6 +398,12 @@ nav ul li ul li ul{
 	background: none;
 	list-style: disc;
 }
+#map_canvas {
+    height: 500px;
+    width: 100%;
+	border: 1px solid #E10707;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
 
 .navigation{
 	padding: 15px 0;
