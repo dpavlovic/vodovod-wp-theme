@@ -393,8 +393,10 @@ nav ul li ul li ul{
 }
 
 .info-text ul li{
+	padding: 5px 0 0 0;
+	margin: 0;
 	background: none;
-	list-style: circle;
+	list-style: disc;
 }
 
 .navigation{
