@@ -361,30 +361,30 @@ nav ul li ul li ul{
 }
 
 .content ul li h2 a{
-	font: 16px/40px "trebuchet_italic";
+	font: 18px/40px "trebuchet_italic";
 	color: #6288ab;
 }
 
 .content .info div{
 	float: left;
 	margin-right: 8px;
-	font: 12px/30px "trebuchet";
+	font: 14px/30px "trebuchet";
 	color: #666666;
 }
 
 .content .info div span{
-	font: 12px/30px "trebuchet";
+	font: 14px/30px "trebuchet";
 	color: #696;
 }
 
 .content .info div a{
-	font: 12px/30px "trebuchet";
+	font: 14px/30px "trebuchet";
 	color: #6288AB;
 }
 
 .content .info-text{
 	padding: 10px 0;
-	font: 12px/16px "trebuchet";
+	font: 14px/18px "trebuchet";
 	color: #666666;
 }
 
