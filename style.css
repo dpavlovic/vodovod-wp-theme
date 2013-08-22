@@ -388,6 +388,15 @@ nav ul li ul li ul{
 	color: #666666;
 }
 
+.info-text ul{
+	padding: 0 0 0 20px;
+}
+
+.info-text ul li{
+	background: none;
+	list-style: circle;
+}
+
 .navigation{
 	padding: 15px 0;
 	text-align: center;
