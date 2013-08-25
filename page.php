@@ -8,8 +8,8 @@
 		<!-- start:content -->
 		<?php get_template_part( 'content', $name = 'single' )?>
 		<!-- stop:content -->
-
-		<aside>
+		<?php get_sidebar( $name = "right" ) ?>
+		<!--<aside>
 
 			<div class="box">
 				<h3>Uplate putem interneta:</h3>
@@ -35,7 +35,7 @@
 				</ul>
 			</div>
 
-		</aside>
+		</aside>-->
 
 	</div>
 	<!-- stop:container -->
