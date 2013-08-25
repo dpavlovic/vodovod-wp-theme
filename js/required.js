@@ -13,4 +13,19 @@ $(document).ready(function() {
 		responsiveSlides: true,
 		autoSlide: true
 	});
+	
+	$('aside .box .menu li:has(ul)').each(function(){
+		
+		$(this).children('a').toggle(function(){
+
+			$(this).parent('li').children('ul').slideDown();
+
+			return false;
+		},
+		function(){
+			$(this).parent('li').children('ul').slideUp();
+
+			return false;	
+		});
+	});
 });

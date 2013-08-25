@@ -240,7 +240,7 @@ nav ul li a{
 	color: #fff;
 }
 
-nav ul li a:hover{
+nav ul li a:hover, nav ul li.current-menu-parent a{
 	background: #fff;
 	color: #6288AB;
 }
@@ -452,7 +452,7 @@ aside .box img{
 
 aside .box li{
 	padding: 0 0 0 25px;
-	background: url("images/li-point.png") left center no-repeat;
+	background: url("images/li-point.png") left 12px no-repeat;
 }
 
 aside .box li a{
@@ -463,6 +463,10 @@ aside .box li a{
 aside .box li a:hover{
 	color: #6288ab;
 	text-decoration: underline;
+}
+
+aside .box li .sub-menu{
+	display: none;
 }
 
 /* ==========================================================================
