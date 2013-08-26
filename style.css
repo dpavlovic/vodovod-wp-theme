@@ -469,6 +469,10 @@ aside .box li .sub-menu{
 	display: none;
 }
 
+aside .box li-current-menu-ancestor .sub-menu{
+	display: block;
+}
+
 /* ==========================================================================
    Footer
    ========================================================================== */
