@@ -24,7 +24,7 @@
 		    </script>
 		    <script type="text/javascript">
 		    function initialize() {
-		    	var latlng = new google.maps.LatLng(43.445301, 16.685062);
+		    	var latlng = new google.maps.LatLng(43.445808, 16.686445);
 		    	var settings = {
 		    		zoom: 16,
 		    		center: latlng,
@@ -38,8 +38,8 @@
 
 		    	};
 		    	var map = new google.maps.Map(document.getElementById("map_canvas"), settings);
-		    	var cyntusPos = new google.maps.LatLng(43.445301, 16.685062);
-		    	var newcenter = new google.maps.LatLng(43.445301, 16.685062);
+		    	var cyntusPos = new google.maps.LatLng(43.445808, 16.686445);
+		    	var newcenter = new google.maps.LatLng(43.445808, 16.686445);
 		    	var cyntusMarker = new google.maps.Marker({
 		    		position: cyntusPos,
 		    		map: map,
