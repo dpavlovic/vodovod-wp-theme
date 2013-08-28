@@ -6,7 +6,7 @@
 	<div class="container clearfix">
 
 		<!-- start:content -->
-		<?php get_template_part( 'content', $name = 'single' )?>
+		<?php get_template_part( 'content', $name = 'prijave' )?>
 		<!-- stop:content -->
 		<?php get_sidebar( $name = "right" ) ?>
 	</div>
