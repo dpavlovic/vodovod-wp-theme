@@ -6,7 +6,7 @@
 
 	$predmet = array(
 		0 => 'Prijava krađe vode',
-		1 => 'Pritužbe na rad VIK-a',
+		1 => 'Pritužbe na rad vodovoda',
 		2 => 'Razno',	
 	);
 	
@@ -67,7 +67,7 @@
 			$headers[] = 'From: Kontakt Web Form <'.$email_from.'>';
 
 			add_filter( 'wp_mail_content_type', 'set_html_content_type' );
-			$check = wp_mail( 'kkatusic@gmail.com', 'Poruka s web stranice - forma prijava', $message, $headers, $attach_me );
+			$check = wp_mail( 'vatrom@gmail.com@gmail.com', 'Poruka s web stranice - forma prijava', $message, $headers, $attach_me );
 			remove_filter( 'wp_mail_content_type', 'set_html_content_type' );
 			
 			$success = TRUE;
