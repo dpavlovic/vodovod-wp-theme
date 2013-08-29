@@ -27,11 +27,7 @@
 			$error = TRUE;
 		}
 		
-		if( trim($_POST['emails']) == '' ){
-			$error = TRUE;
-		}
-		
-		if( trim($_POST['website']) == '' ){
+		if( trim($_POST['message']) == '' ){
 			$error = TRUE;
 		}
 		
