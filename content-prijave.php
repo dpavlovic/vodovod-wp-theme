@@ -92,7 +92,7 @@
 						<div class="info-text">
 							<?php 
 								//the_content( $more_link_text = null, $stripteaser = false );
-								echo "proba";
+								//echo "proba";
 							?>
 						</div>
 					</li>
