@@ -530,3 +530,75 @@ aside .box li-current-menu-ancestor .sub-menu{
 	font: 20px/40px "trebuchet_bold";
 	color: #715568;
 }
+
+/* ==========================================================================
+   Contact form
+   ========================================================================== */
+
+.contact_form .intro{
+    font: 14px/20px 'open_sansregular';
+	color: #1A93AE;
+}
+
+.contact_form ul li{
+	margin: 10px 0 0 0;
+	background: none;
+}
+
+label{
+	display: block;
+	width: 100%;
+	font: 14px/25px "trebuchet";
+}
+
+select.select{
+	width: 395px;
+	height: 30px;
+	padding: 7px;
+	font: 12px/25px 'trebuchet',sans-serif;
+}
+
+input.text{
+    width: 400px;
+    height: 30px;
+	border: 1px solid #706558;
+    font: 12px/30px 'trebuchet';
+}
+
+textarea.textarea{
+	width: 400px;
+    height: 150px;
+	border: 1px solid #706558;
+    font: 12px/30px 'trebuchet';
+}
+
+
+input.submit{
+	width: 80px;
+	height: 30px;
+	padding: 0 10px;
+	border: 1px solid #1A93AE;
+	font: 14px/30px 'trebuchet';
+	color: #1A93AE;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.contact_form .submit{
+	float: right;
+	margin: 0 227px 0 0;
+}
+
+.below_form{
+	width: 100%;
+}
+
+p.error{
+	font: 16px/25px 'trebuchet';
+	color: #D8000C;
+}
+
+p.success{
+	font: 16px/25px 'trebuchet';
+	color: #4F8A10;
+}
