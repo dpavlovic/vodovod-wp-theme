@@ -419,7 +419,24 @@ nav ul li ul li ul{
 .navigation a:last-child{
 	padding: 0 0 0 30px;
 }
-
+/* ==========================================================================
+   Galleries
+   ========================================================================== */
+.post-thumbnail {
+	float:left;
+}
+.post-thumbnail img.attachment-gallery-intro {
+	box-shadow: 1px 1px 5px 1px #CCCCCC;
+	float: left;
+	margin: 10px;
+}
+#gallery-1 img {
+    box-shadow: 1px 1px 5px 1px #CCCCCC;
+    float: left;
+    height: auto;
+    margin: 10px;
+    width: auto;
+}
 /* ==========================================================================
    Aside
    ========================================================================== */
