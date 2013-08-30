@@ -30,12 +30,13 @@
 		?>
 		
 	</ul>
-
+	<!--
 	<div class="navigation">
 		<p>
 			<a href="">« Stariji textovi</a> — 
 			<a href="">Noviji tekstovi »</a>
 		</p>
 	</div>
+	-->
 
 </div>

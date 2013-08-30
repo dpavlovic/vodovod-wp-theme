@@ -25,8 +25,9 @@
 			wp_reset_postdata();
 		?>
 		</ul>
-
+	<?php if (in_category( 'obavijesti-i-novosti')) { ?>
 	<div class="navigation">
+
 		<p>
 			<?php previous_post_link('%link', 'Stariji tekst', TRUE); ?> 
 			<!--<a href="#">« Stariji textovi</a>--> — 
@@ -34,5 +35,6 @@
 			<!--<a href="#">Noviji tekstovi »</a>-->
 		</p>
 	</div>
+	<?php } ?>
 
 </div>

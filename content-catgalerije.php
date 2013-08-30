@@ -27,14 +27,5 @@
 			}
 		?>
 		</ul>
-
-	<div class="navigation">
-		<p>
-			<!--<?php previous_post_link('%link', 'Stariji tekst', TRUE); ?> 
-			— 
-			<?php next_post_link('%link', 'Noviji text', TRUE); ?> -->
-			
-		</p>
-	</div>
-
+		
 </div>

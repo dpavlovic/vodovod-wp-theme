@@ -26,7 +26,7 @@
 			}
 		?>
 		</ul>
-
+	<?php if is_category( 'obavijesti-i-novosti' ) { ?>	
 	<div class="navigation">
 		<p>
 			<!--<?php previous_post_link('%link', 'Stariji tekst', TRUE); ?> 
@@ -35,5 +35,6 @@
 			
 		</p>
 	</div>
+	<?php } ?>
 
 </div>
