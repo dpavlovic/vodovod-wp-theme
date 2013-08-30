@@ -8,8 +8,8 @@
 			while(have_posts()){
 				the_post();?>
 				<li>
-					<a href="<?php the_permalink();?>"><div class="post-thumbnail"><img src="<?php echo get_template_directory_uri();?>/images/document-icon.png"></div></a>
-					<div class="gallery-info"><h2><a href="<?php the_permalink();?>"><?php the_title( $before = '', $after = '', $echo = true )?></a></h2>
+					<div class="post-thumbnail"><img src="<?php echo get_template_directory_uri();?>/images/document-icon.png"></div>
+					<div class="gallery-info"><h2><?php the_title( $before = '', $after = '', $echo = true )?></h2>
 						<div class="info clearfix">
 							<?php if(is_category( $category = 'obavijesti-i-novosti' )) { ?><div><span>Objavljeno:</span><?php the_time( $d = 'F j, Y' )?></div><?php } ?></div>
 
