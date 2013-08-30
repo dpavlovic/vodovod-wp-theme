@@ -2,7 +2,7 @@
 	<div class="info-text">
 		<?php echo category_description()?>
 	</div>
-	<ul>
+	<ul class="cat-law">
 		<?php 
 		if(have_posts()){
 			while(have_posts()){

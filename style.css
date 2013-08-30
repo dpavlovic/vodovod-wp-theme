@@ -619,3 +619,32 @@ p.success{
 	font: 16px/25px 'trebuchet';
 	color: #4F8A10;
 }
+
+/* ==========================================================================
+   Contact form
+   ========================================================================== */
+.cat-law h2{
+	padding: 10px 0 0 80px;
+	color: #6288AB;
+    font: 18px/40px "trebuchet_italic";
+}
+
+.cat-law .info{
+	margin: 30px 0 0 0;
+}
+
+.cat-law span{
+	color: #669966;
+    font: 14px/30px "trebuchet";
+}
+
+.cat-law a{
+	color: #6288AB;
+    font: 14px/30px "trebuchet";
+}
+
+.cat-law .description{
+	padding: 10px 0 0 0;
+	color: #666666;
+    font: 14px/18px "trebuchet";
+}
