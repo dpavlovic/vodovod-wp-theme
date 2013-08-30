@@ -8,7 +8,7 @@
 				while(have_posts()){
 					the_post();?>
 					<li>
-						<div class="post-thumbnail"><?php the_post_thumbnail( $size = 'gallery-intro', $attr = '' )?></div>
+						<a href="<?php the_permalink();?>"><div class="post-thumbnail"><?php the_post_thumbnail( $size = 'gallery-intro', $attr = '' )?></div></a>
 						<div class="gallery-info"><h2><a href="<?php the_permalink();?>"><?php the_title( $before = '', $after = '', $echo = true )?></a></h2>
 						<div class="info clearfix">
 							<div><span>Author:</span><?php the_author( $deprecated = '', $deprecated_echo = true )?></div>
