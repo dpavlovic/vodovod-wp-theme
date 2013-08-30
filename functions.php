@@ -12,7 +12,7 @@ add_theme_support( 'post-thumbnails' );
 add_image_size( 'intro-image', 290, 144 );
 add_image_size( 'intro-image-crop', 290, 144, true );
 // turn off default gallery style
-add_filter( 'use_default_gallery_style', '__return_false' );
+//add_filter( 'use_default_gallery_style', '__return_false' );
 //remove_filter('the_content', 'wpautop');
 
 $sidebar_args = array(
