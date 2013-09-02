@@ -72,6 +72,10 @@
 	}
 ?>
 <div class="content contact_form">
+	
+	<div class="content-header-image">
+		<img src="<?php echo get_template_directory_uri(); ?>/images/prituzbe.jpg" />
+	</div>
 
 	<ul>
 		<?php 
