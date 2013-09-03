@@ -5,8 +5,8 @@
 	}
 
 	$predmet = array(
-		0 => 'Prijava krađe vode',
-		1 => 'Pritužbe na rad vodovoda',
+		0 => 'Prijava kvara',
+		1 => 'Prijava krađe vode',
 		2 => 'Razno',	
 	);
 	
@@ -63,7 +63,7 @@
 			$headers[] = 'From: Kontakt Web Form <'.$email_from.'>';
 
 			add_filter( 'wp_mail_content_type', 'set_html_content_type' );
-			$check = wp_mail( 'josko.bijukovic@vodovod.hr', 'Poruka s web stranice - forma prijava', $message, $headers, $attach_me );
+			$check = wp_mail( 'omis@vodovod.hr', 'Poruka s web stranice - forma prijava', $message, $headers, $attach_me );
 			remove_filter( 'wp_mail_content_type', 'set_html_content_type' );
 			
 			$success = TRUE;
@@ -73,9 +73,9 @@
 ?>
 <div class="content contact_form">
 	
-	<div class="content-header-image">
+	<!--<div class="content-header-image">
 		<img src="<?php echo get_template_directory_uri(); ?>/images/prituzbe.jpg" />
-	</div>
+	</div>-->
 
 	<ul>
 		<?php 
