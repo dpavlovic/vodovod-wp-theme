@@ -23,8 +23,8 @@
 
 		<!-- start:box-three -->
 		<div class="box-three">
-			<span>Broj za hitne intervencije</span>
-			<span class="number"> 021 861 236 ; 098 362 712</span>
+			<span>Broj za hitne intervencije<br></span>
+			<span class="number"> 021 861 236<br>098 362 712</span>
 		</div>
 		<!-- end:box-three -->
 
