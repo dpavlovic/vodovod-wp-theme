@@ -6,7 +6,12 @@
 	<div class="container clearfix">
 
 		<!-- start:content -->
-		<?php get_template_part( 'content', $name = 'category' )?>
+		<?php
+		if (is_category( array( 'zakoni', 'pravilnici', 'odluke', 'evidencija-javne-nabave', 'izvjestaji-drustva', 'zakoni-pravilnici-odluke' ) ) ) { 
+			get_template_part( 'content', $name = 'catzakoni' ) ;
+		} else {
+			get_template_part( 'content', $name = 'category' ) ;
+		} ?>
 		<!-- stop:content -->
 		<?php get_sidebar( $name = "right" ) ?>
 	</div>
