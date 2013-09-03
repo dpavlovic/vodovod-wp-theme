@@ -6,8 +6,8 @@
 		<!-- start:box-one -->
 		<div class="box-one">
 			<p>
-				VODOVOD OMIŠ d.o.o. za vodoopskrbu i odvodnju<br>
-				Četrvt Vrilo 6, 21310 Omiš
+				VODOVOD d.o.o. Omiš za vodoopskrbu i odvodnju<br>
+				Četrvt Vrilo 6, 21310 Omiš 
 			</p>
 		</div>
 		<!-- end:box-one -->
@@ -24,7 +24,7 @@
 		<!-- start:box-three -->
 		<div class="box-three">
 			<span>Broj za hitne intervencije</span>
-			<span class="number">021/861 - 236</span>
+			<span class="number"> 021 861 236 ; 098 362 712</span>
 		</div>
 		<!-- end:box-three -->
 
