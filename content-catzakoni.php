@@ -15,7 +15,11 @@
 
 							<div class="clearfix"><span>Kategorija:</span> <?php the_category( $separator = ',', $parents='', $post_id = false )?></div>
 							<div class="link clearfix"><a href="<?php echo get_post_meta($post->ID, 'dbt_url', true); ?>" >Preuzimanje dokumenta</a></div>
+							<?php
+							$description = get_post_meta($post->ID, 'dbt_opis', true);
+							if ($description != '') { ?>
 							<div class="description clearfix"><span>Opis:</span> <?php echo get_post_meta($post->ID, 'dbt_opis', true); ?></div>
+							<?php } ?>
 						</div>
 						<div class="info-text">
 							<?php //the_content( $more_link_text = "Pročitaj više ...", $stripteaser = false );?>
