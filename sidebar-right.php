@@ -8,4 +8,6 @@
 			</a>
 		</div>
 	</div>
+	<div id="tooltip">Klikom na link možete pristupiti portalu,<br> koristeći korisničko ime i lozinku sa računa.</div>
+
 </aside>

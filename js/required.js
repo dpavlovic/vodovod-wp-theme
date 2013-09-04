@@ -28,4 +28,12 @@ $(document).ready(function() {
 			return false;	
 		});
 	});
+	$( '[rel="tooltip"]' ).hover( function(e) {
+	   var x = e.pageX;
+	   var y = e.pageY;
+	   $('#tooltip').css( { top: y, left: x, position: 'absolute' } )
+	       .fadeIn();
+	}, function() {
+	    $('#tooltip').fadeOut();
+	} );
 });
