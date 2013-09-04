@@ -256,9 +256,15 @@ nav ul li.current-menu-item ul.sub-menu li a{
 	background: none;
 }
 
-nav ul li.current_page_parent a{
+nav ul li.current_page_parent a, nav ul li.current_page_ancestor a{
 	background: #fff;
 	color: #6288AB;
+}
+
+nav ul li.current_page_ancestor ul li a{
+	font: 14px/39px "trebuchet_bold";
+	color: #fff;
+	background: none;
 }
 
 nav ul li.current_page_parent ul.sub-menu li a{
@@ -276,6 +282,22 @@ nav ul li.current_page_parent ul.sub-menu li.current-menu-item ul.sub-menu li a{
 	font: 14px/39px "trebuchet_bold";
 	color: #fff;
 	background: none;
+}
+
+nav ul li ul li.current-menu-parent a{
+	background: #fff;
+	color: #6288AB;
+}
+
+nav ul li ul li.current-menu-parent ul li a{
+	font: 14px/39px "trebuchet_bold";
+	color: #fff;
+	background: none;
+}
+
+nav ul li ul li.current-menu-parent ul li.current-menu-item a{
+	background: #fff;
+	color: #6288AB;
 }
 
 nav ul li ul{
