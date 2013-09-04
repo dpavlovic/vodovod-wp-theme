@@ -300,6 +300,11 @@ nav ul li ul li.current-menu-parent ul li.current-menu-item a{
 	color: #6288AB;
 }
 
+nav ul li a:hover, nav ul li.current_page_ancestor ul li a:hover{
+	background: #fff;
+	color: #6288AB;
+}
+
 nav ul li ul{
 	display: none;
 	position: absolute;
