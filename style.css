@@ -305,6 +305,11 @@ nav ul li a:hover, nav ul li.current_page_ancestor ul li a:hover{
 	color: #6288AB;
 }
 
+nav ul li.current-menu-item ul.sub-menu li a:hover{
+	background: #fff;
+	color: #6288AB;
+}
+
 nav ul li ul{
 	display: none;
 	position: absolute;
