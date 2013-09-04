@@ -28,7 +28,9 @@
 
 					<?php }
 
-				} else {
+				} else if (is_category( 'javno-nadmetanje' )){
+					echo "Trenutno nema objavljenih postupaka javne nabave.";
+				}  else {
 					echo "Nema unosa koji zadvoljava uvjet!";
 				}
 				?>
