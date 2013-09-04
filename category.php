@@ -7,7 +7,7 @@
 
 		<!-- start:content -->
 		<?php
-		if (is_category( array( 'zakoni', 'pravilnici', 'odluke', 'evidencija-javne-nabave', 'izvjestaji-drustva', 'zakoni-pravilnici-odluke', 'javna-nabava' ) ) ) { 
+		if (is_category( array( 'zakoni', 'pravilnici', 'odluke', 'evidencija-javne-nabave', 'izvjestaji-drustva', 'zakoni-pravilnici-odluke', 'javna-nabava', 'objave' ) ) ) { 
 			get_template_part( 'content', $name = 'catzakoni' ) ;
 		} else {
 			get_template_part( 'content', $name = 'category' ) ;
