@@ -6,7 +6,7 @@
 			$args = array (
 				'posts_per_page' => 20,
 				'meta_key' => '_serviceinfo_rb',
-				'orderby'='meta_value_num' // for numeric value use 'meta_value_num' instead
+				'orderby'=>'meta_value_num' // for numeric value use 'meta_value_num' instead
 			);
 			query_posts ($args);		 
 		?>
