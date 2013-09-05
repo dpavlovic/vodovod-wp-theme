@@ -86,7 +86,7 @@
 						<h2><a href="<?php the_permalink();?>"><?php the_title( $before = '', $after = '', $echo = true )?></a></h2>
 						<div class="info clearfix">
 							<div><span>Author:</span><?php the_author( $deprecated = '', $deprecated_echo = true )?></div>
-							<div><span>Kategorija:</span> <?php the_category( $separator = ',', $parents='', $post_id = false )?></div>
+							<!--<div><span>Kategorija:</span> <?php the_category( $separator = ',', $parents='', $post_id = false )?></div>-->
 						</div>
 						<div class="info-text">
 							<?php 
