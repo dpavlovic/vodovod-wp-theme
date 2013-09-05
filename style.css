@@ -585,6 +585,15 @@ aside .box li-current-menu-ancestor .sub-menu{
 	text-align: center;
 	font: 12px/18px "trebuchet_bold";
 	color: #363d47;
+	background: url("images/footer-three-bg.png") center center no-repeat;
+}
+
+#footer .box-three span{
+	color: #5b82a9;
+}
+
+#footer .box-three span.number{
+	color: #6f5669;
 }
 
 /* ==========================================================================
