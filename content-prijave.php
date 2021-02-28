@@ -1,4 +1,5 @@
 <?php
+	// Test ovo je samo test nekakakv
 	function set_html_content_type()
 	{
 		return 'text/html';
